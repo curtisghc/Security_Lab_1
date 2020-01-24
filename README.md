@@ -4,5 +4,5 @@ security lab 1
 ## Install des library using pip3 on ubuntu
 ```
 sudo apt install python3-pip
-sudo pip install des
+sudo pip3 install des
 ```
