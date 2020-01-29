@@ -1,7 +1,8 @@
-# Security_Lab_1 security lab 1 ## Install des library using pip3 on ubuntu
+# Security_Lab_1 security lab 1 
 
 ## Dependencies
 Currently Python2.7 and 3 are needed, will fix later.
+Install DES library.
 ```
 sudo apt install python3-pip
 sudo pip3 install des
