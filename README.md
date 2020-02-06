@@ -23,6 +23,9 @@ python3 client.py 127.0.0.1 9909
 ```
 
 Each connection and message will be displayed on the server, but unreadable without the secret key.
+ 
+![Screenshot](https://raw.githubusercontent.com/curtisghc/Security_Lab_1/master/Screenshot.png)
+
 
 Key must be placed in the running directory as "key.txt".
 
