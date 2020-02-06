@@ -66,10 +66,14 @@ while True:
         if socks == server:
             message = socks.recv(2048)
             message = message.split(b' ')
-            message[1] = key0.decrypt(message[1], padding=True)
-            message = message[0] + b' ' + message[1]
-            message = message.decode('utf-8')
-            print(message)
+            try:
+                message[1] = key0.decrypt(message[1], padding=True)
+            except:
+                print("[Unable't decrypt message from " + message[0] + "]")
+            else:
+                message = message[0] + b' ' + message[1]
+                message = message.decode('utf-8')
+                print(message)
         else:
             message = sys.stdin.readline()
             sys.stdout.write("<You>")
