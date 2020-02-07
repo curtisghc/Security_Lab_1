@@ -28,6 +28,3 @@ Each connection and message will be displayed on the server, but unreadable with
 
 
 Key must be placed in the running directory as "key.txt".
-
-## TODO
-Currently decrypting messages gives a bug, has to do with the padding of messages sent over the sockets. Will fix.
